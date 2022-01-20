@@ -1,0 +1,73 @@
+luthe@LAPTOP-7H0F3E7G MINGW64 ~ (master)
+$ cd OneDrive/Desktop/github
+
+luthe@LAPTOP-7H0F3E7G MINGW64 ~/OneDrive/Desktop (master)
+$ ls
+'~$w Rich Text Document.rtf'   deneme/       linux/      shell/  
+ aws/                          desktop.ini   projects/   ubuntu2/
+
+luthe@LAPTOP-7H0F3E7G MINGW64 ~/OneDrive/Desktop (master)
+$ mkdir github
+
+luthe@LAPTOP-7H0F3E7G MINGW64 ~/OneDrive/Desktop (master)
+$ cd github
+
+luthe@LAPTOP-7H0F3E7G MINGW64 ~/OneDrive/Desktop/github (master)
+$ git init
+Initialized empty Git repository in C:/Users/luthe/OneDrive/Desktop/github/.git/
+
+luthe@LAPTOP-7H0F3E7G MINGW64 ~/OneDrive/Desktop/github (master)
+$ touch github
+
+luthe@LAPTOP-7H0F3E7G MINGW64 ~/OneDrive/Desktop/github (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        github
+
+nothing added to commit but untracked files present (use "git add" to track)  
+
+luthe@LAPTOP-7H0F3E7G MINGW64 ~/OneDrive/Desktop/github (master)
+$ git branch
+
+luthe@LAPTOP-7H0F3E7G MINGW64 ~/OneDrive/Desktop/github (master)
+$ git commit -m "github calismasi"
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        github
+
+nothing added to commit but untracked files present (use "git add" to track)  
+
+luthe@LAPTOP-7H0F3E7G MINGW64 ~/OneDrive/Desktop/github (master)
+$ git add .
+
+luthe@LAPTOP-7H0F3E7G MINGW64 ~/OneDrive/Desktop/github (master)
+$ git commit -m "github calismasi"
+[master (root-commit) 91d5cd5] github calismasi
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 github
+
+luthe@LAPTOP-7H0F3E7G MINGW64 ~/OneDrive/Desktop/github (master)
+$ git branch refia
+
+luthe@LAPTOP-7H0F3E7G MINGW64 ~/OneDrive/Desktop/github (master)
+$ git branch
+* master
+  refia
+
+luthe@LAPTOP-7H0F3E7G MINGW64 ~/OneDrive/Desktop/github (master)
+$ git switch refia
+Switched to branch 'refia'
+
+luthe@LAPTOP-7H0F3E7G MINGW64 ~/OneDrive/Desktop/github (refia)
+$ git branch
+  master
+* refia
