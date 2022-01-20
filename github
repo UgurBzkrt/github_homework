@@ -71,3 +71,42 @@ luthe@LAPTOP-7H0F3E7G MINGW64 ~/OneDrive/Desktop/github (refia)
 $ git branch
   master
 * refia
+
+luthe@LAPTOP-7H0F3E7G MINGW64 ~/OneDrive/Desktop/github (refia)
+$ git status
+On branch refia
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   github
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+luthe@LAPTOP-7H0F3E7G MINGW64 ~/OneDrive/Desktop/github (refia)
+$ git commit -m "github calismasi revize"
+[refia 3df3de3] github calismasi revize
+ 1 file changed, 73 insertions(+)
+
+luthe@LAPTOP-7H0F3E7G MINGW64 ~/OneDrive/Desktop/github (refia)
+$ git status
+On branch refia
+nothing to commit, working tree clean
+
+luthe@LAPTOP-7H0F3E7G MINGW64 ~/OneDrive/Desktop/github (refia)
+$ git log
+commit 3df3de3c424a1c3d10bcd185968275238a484c0a (HEAD -> refia)
+Author: lenaways <lutherlena07@gmail.com>
+Date:   Thu Jan 20 23:53:53 2022 +0100
+
+    github calismasi revize
+
+commit 91d5cd552375e5191aafc867c422f6fc47bc8e5c (master)
+Author: lenaways <lutherlena07@gmail.com>
+Date:   Thu Jan 20 23:38:13 2022 +0100
+
+    github calismasi
+
+luthe@LAPTOP-7H0F3E7G MINGW64 ~/OneDrive/Desktop/github (refia)
+$ git log --oneline
+3df3de3 (HEAD -> refia) github calismasi revize
+91d5cd5 (master) github calismasi
